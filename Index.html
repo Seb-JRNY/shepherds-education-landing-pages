@@ -23,7 +23,7 @@
 
         .hero {
             min-height: 90vh;
-            background: linear-gradient(135deg, #ffeeaa 0%, #FECA39 50%, #ffd97d 100%);
+            background: linear-gradient(135deg, #bbeeff 0%, #8ed1fc 50%, #e0e7ff 100%);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -46,7 +46,6 @@
             color: #112255ee;
             margin-bottom: 1.5rem;
             line-height: 1.2;
-            text-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
         }
 
         .hero-text p {
@@ -54,21 +53,20 @@
             color: #0d3e83;
             margin-bottom: 2rem;
             line-height: 1.6;
-            text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
         }
 
         .hero-badge {
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
-            background: #0077ee;
+            background: #FECA39;
             padding: 0.5rem 1.5rem;
             border-radius: 50px;
             font-size: 0.9rem;
             font-weight: 600;
             margin-bottom: 1.5rem;
-            color: #fff;
-            box-shadow: 0 2px 10px rgba(0, 119, 238, 0.3);
+            color: #112255ee;
+            box-shadow: 0 2px 10px rgba(254, 202, 57, 0.3);
         }
 
         .hero-image {
@@ -86,21 +84,21 @@
         .cta-button {
             padding: 1rem 2.5rem;
             font-size: 1.1rem;
-            background: linear-gradient(135deg, #0077ee 0%, #0d3e83 100%);
-            color: #fff;
+            background: linear-gradient(135deg, #FECA39 0%, #ffeeaa 100%);
+            color: #112255ee;
             border: none;
             border-radius: 50px;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 119, 238, 0.3);
+            box-shadow: 0 4px 15px rgba(254, 202, 57, 0.3);
             display: inline-block;
             text-decoration: none;
         }
 
         .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 6px 25px rgba(0, 119, 238, 0.5);
+            box-shadow: 0 6px 25px rgba(254, 202, 57, 0.5);
         }
 
         .courses-section {
@@ -153,9 +151,9 @@
         }
 
         .state-bubble.active {
-            background: linear-gradient(135deg, #ff9f43 0%, #FECA39 100%);
+            background: linear-gradient(135deg, #FECA39 0%, #ffeeaa 100%);
             color: #112255ee;
-            border-color: #ff9f43;
+            border-color: #FECA39;
         }
 
         .courses-grid {
@@ -171,7 +169,7 @@
             border-radius: 12px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
             transition: all 0.3s ease;
-            border-left: 4px solid #ff9f43;
+            border-left: 4px solid #0077ee;
             position: relative;
         }
 
@@ -181,13 +179,13 @@
 
         .course-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 6px 25px rgba(255, 159, 67, 0.15);
+            box-shadow: 0 6px 25px rgba(0, 119, 238, 0.15);
         }
 
         .course-card.selected {
-            border-left-color: #ff9f43;
-            background: #fff7ed;
-            box-shadow: 0 4px 20px rgba(255, 159, 67, 0.3);
+            border-left-color: #FECA39;
+            background: #fffbf0;
+            box-shadow: 0 4px 20px rgba(254, 202, 57, 0.3);
         }
 
         .course-badge {
@@ -206,7 +204,7 @@
         .course-icon {
             width: 50px;
             height: 50px;
-            background: linear-gradient(135deg, #ffeeaa 0%, #ffd97d 100%);
+            background: linear-gradient(135deg, #bbeeff 0%, #8ed1fc 100%);
             border-radius: 12px;
             display: flex;
             align-items: center;
@@ -265,7 +263,7 @@
         }
 
         .feature-icon {
-            color: #ff9f43;
+            color: #0077ee;
             font-weight: 600;
         }
 
@@ -322,8 +320,8 @@
         }
 
         .visa-option.selected {
-            border-color: #ff9f43;
-            background: #fff7ed;
+            border-color: #FECA39;
+            background: #fffbf0;
         }
 
         .visa-icon {
@@ -385,81 +383,8 @@
         }
 
         .work-option.selected {
-            border-color: #ff9f43;
-            background: #fff7ed;
-        }
-
-        .location-section {
-            padding: 4rem 2rem;
-            background: #fff;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        .location-section h2 {
-            font-size: 1.7rem;
-            color: #1e293b;
-            margin-bottom: 1rem;
-            text-align: center;
-        }
-
-        .location-section p {
-            text-align: center;
-            color: #64748b;
-        }
-
-        .location-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            margin-bottom: 2rem;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .location-option {
-            background: #fff;
-            padding: 1rem 1.5rem;
-            border-radius: 12px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-            border: 3px solid transparent;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-        }
-
-        .location-option:hover {
-            transform: translateX(5px);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
-        }
-
-        .location-option.selected {
-            border-color: #ff9f43;
-            background: #fff7ed;
-        }
-
-        .location-icon {
-            font-size: 2rem;
-            flex-shrink: 0;
-        }
-
-        .location-details {
-            flex: 1;
-        }
-
-        .location-name {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: #1e293b;
-            margin-bottom: 0.25rem;
-        }
-
-        .location-address {
-            font-size: 0.9rem;
-            color: #64748b;
+            border-color: #FECA39;
+            background: #fffbf0;
         }
 
         .work-icon {
@@ -479,7 +404,7 @@
             padding: 2rem;
             background: #fff;
             border-radius: 12px;
-            border: 3px solid #ff9f43;
+            border: 3px solid #0077ee;
             display: none;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
@@ -534,10 +459,10 @@
         }
 
         .requirement-card {
-            background: linear-gradient(135deg, #fff7ed 0%, #ffe4cc 100%);
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
             padding: 2rem;
             border-radius: 12px;
-            border-left: 4px solid #ff9f43;
+            border-left: 4px solid #0077ee;
         }
 
         .requirement-title {
@@ -553,7 +478,7 @@
         }
 
         .booking-section {
-            background: linear-gradient(135deg, #fff7ed 0%, #ffe4cc 100%);
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 100%);
             padding: 4rem 2rem;
         }
 
@@ -586,7 +511,7 @@
         }
 
         .lead-capture {
-            background: linear-gradient(135deg, #ff9f43 0%, #ff7f27 100%);
+            background: linear-gradient(135deg, #0d3e83 0%, #112255ee 100%);
             padding: 4rem 2rem;
         }
 
@@ -604,7 +529,7 @@
 
         .lead-capture p {
             font-size: 1.1rem;
-            color: #fff7ed;
+            color: #bbeeff;
             margin-bottom: 2rem;
         }
 
@@ -644,8 +569,8 @@
         .form-group select:focus,
         .form-group textarea:focus {
             outline: none;
-            border-color: #ff9f43;
-            box-shadow: 0 0 0 3px rgba(255, 159, 67, 0.1);
+            border-color: #FECA39;
+            box-shadow: 0 0 0 3px rgba(254, 202, 57, 0.1);
         }
 
         .form-group textarea {
@@ -656,8 +581,8 @@
         .submit-button {
             width: 100%;
             padding: 1rem;
-            background: linear-gradient(135deg, #0077ee 0%, #0d3e83 100%);
-            color: #fff;
+            background: linear-gradient(135deg, #FECA39 0%, #ffeeaa 100%);
+            color: #112255ee;
             border: none;
             border-radius: 8px;
             font-size: 1.1rem;
@@ -669,7 +594,7 @@
 
         .submit-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0, 119, 238, 0.4);
+            box-shadow: 0 6px 20px rgba(254, 202, 57, 0.4);
         }
 
         .urgency-message {
@@ -702,14 +627,14 @@
         }
 
         footer {
-            background: #3d2817;
+            background: #112255ee;
             color: #fff;
             padding: 3rem 2rem;
             text-align: center;
         }
 
         footer p {
-            color: #ffd97d;
+            color: #bbeeff;
         }
 
         @media (max-width: 968px) {
@@ -738,10 +663,10 @@
             <div class="hero-text">
                 <div class="hero-badge">
                     <span>🌐</span>
-                    <span>IN-PERSON COURSES</span>
+                    <span>ONLINE | BLENDED COURSES</span>
                 </div>
                 <h1>Study Smarter, Not Harder.</h1>
-                <p>Empower your learning experience with our In-person training courses. Build the career that's right for you with government funded options available to transform your future.</p>
+                <p>Empower your learning experience with our flexible course options, available online | blended. Build the career that's right for you with government funded options available to transform your future.</p>
                 <button class="cta-button" onclick="scrollToSection('state-selection')">
                     View Our Courses
                 </button>
@@ -778,18 +703,18 @@
 
     <div class="courses-section">
         <div class="section-header">
-            <h2>Our In-person Courses</h2>
-            <p>Nationally recognised qualifications, hosted across our diverse range of partnered Registered training organisations</p>
+            <h2>Our Online Courses</h2>
+            <p>Nationally recognised qualifications delivered 100% online with full support</p>
             
             <div class="state-selector" id="state-selection">
-                <div class="state-bubble active" onclick="selectState('SA')">SA</div>
-                <div class="state-bubble" onclick="selectState('WA')">WA</div>
+                <div class="state-bubble active" onclick="selectState('QLD')">QLD</div>
+                <div class="state-bubble" onclick="selectState('SA')">SA</div>
                 <div class="state-bubble" onclick="selectState('VIC')">VIC</div>
             </div>
         </div>
 
         <div class="courses-grid" id="courses-grid">
-            <div class="course-card" data-course="early-childhood-cert3" onclick="selectCourse('early-childhood-cert3', this)">
+            <div class="course-card" data-course="early-childhood" onclick="selectCourse('early-childhood', this)">
                 <div class="course-header">
                     <div class="course-icon">👶</div>
                     <div class="course-header-text">
@@ -1114,266 +1039,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="course-card" data-course="cake-pastry-baking" onclick="selectCourse('cake-pastry-baking', this)">
-                <div class="course-header">
-                    <div class="course-icon">🧁</div>
-                    <div class="course-header-text">
-                        <div>
-                            <span class="course-title">Cake and Pastry Baking for Bread Bakers' Skill Set</span>
-                            <span class="course-code">[FBPSS00003]</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="course-description">Expand your baking expertise with specialized skills in cake and pastry techniques. Perfect for bread bakers looking to diversify their skills and create a wider range of baked goods for commercial settings.</p>
-                <div class="course-features">
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Hands-on practical training</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Industry-standard techniques</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Commercial baking focus</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="course-card" data-course="bread-baking" onclick="selectCourse('bread-baking', this)">
-                <div class="course-header">
-                    <div class="course-icon">🍞</div>
-                    <div class="course-header-text">
-                        <div>
-                            <span class="course-title">Bread Baking for Pastry Cooks Skill Set</span>
-                            <span class="course-code">[FBPSS00002]</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="course-description">Develop artisan bread-making skills to complement your pastry expertise. Learn traditional and contemporary bread-making techniques for commercial bakery environments.</p>
-                <div class="course-features">
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Artisan techniques</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>In-person instruction</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Practical skill development</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="course-card" data-course="training-assessment" onclick="selectCourse('training-assessment', this)">
-                <div class="course-header">
-                    <div class="course-icon">📚</div>
-                    <div class="course-header-text">
-                        <div>
-                            <span class="course-title">Certificate IV in Training and Assessment</span>
-                            <span class="course-code">[TAE40122]</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="course-description">Become a qualified trainer and assessor with this nationally recognized qualification. Design and deliver training programs, assess competency, and contribute to the vocational education and training sector.</p>
-                <div class="course-features">
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Face-to-face delivery</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Essential VET qualification</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Career in education</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="course-card" data-course="english-proficiency" onclick="selectCourse('english-proficiency', this)">
-                <div class="course-header">
-                    <div class="course-icon">🗣️</div>
-                    <div class="course-header-text">
-                        <div>
-                            <span class="course-title">Certificate II in English Proficiency</span>
-                            <span class="course-code">[EAL]</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="course-description">Improve your English language skills for everyday communication and workplace contexts. This course supports individuals from non-English speaking backgrounds to build confidence and competency in English.</p>
-                <div class="course-features">
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Classroom-based learning</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Practical communication skills</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Workplace English focus</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="course-card" data-course="work-health-safety-cert4" onclick="selectCourse('work-health-safety-cert4', this)">
-                <div class="course-header">
-                    <div class="course-icon">🛡️</div>
-                    <div class="course-header-text">
-                        <div>
-                            <span class="course-title">Certificate IV in Work Health and Safety</span>
-                            <span class="course-code">[BSB41419]</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="course-description">Develop skills to coordinate and implement WHS programs in the workplace. Learn to apply risk assessment, incident investigation, and safety management principles to create safer work environments across various industries.</p>
-                <div class="course-features">
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>In-person training</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Risk assessment skills</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Industry-recognized qualification</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="course-card" data-course="work-health-safety-diploma" onclick="selectCourse('work-health-safety-diploma', this)">
-                <div class="course-header">
-                    <div class="course-icon">🛡️</div>
-                    <div class="course-header-text">
-                        <div>
-                            <span class="course-title">Diploma of Work Health and Safety</span>
-                            <span class="course-code">[BSB51319]</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="course-description">Advance your WHS career with this higher-level qualification for managing workplace safety programs. Develop expertise in compliance, policy development, and leading organizational safety culture change initiatives.</p>
-                <div class="course-features">
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Advanced qualification</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Leadership focus</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>In-person delivery</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="course-card" data-course="early-childhood-diploma" onclick="selectCourse('early-childhood-diploma', this)">
-                <div class="course-header">
-                    <div class="course-icon">👶</div>
-                    <div class="course-header-text">
-                        <div>
-                            <span class="course-title">Diploma of Early Childhood Education and Care</span>
-                            <span class="course-code">[CHC50121]</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="course-description">Become a qualified early childhood educator and room leader with this advanced qualification. Design and implement educational programs, supervise staff, and take on leadership responsibilities in early childhood settings.</p>
-                <div class="course-features">
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Leadership qualification</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Educational program design</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>In-person & online components</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="course-card" data-course="commercial-cookery" onclick="selectCourse('commercial-cookery', this)">
-                <div class="course-header">
-                    <div class="course-icon">👨‍🍳</div>
-                    <div class="course-header-text">
-                        <div>
-                            <span class="course-title">Certificate III in Commercial Cookery</span>
-                            <span class="course-code">[SIT30821]</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="course-description">Launch your culinary career with hands-on commercial kitchen training. Learn cooking techniques, menu planning, and food safety while working in a professional kitchen environment preparing you for chef roles.</p>
-                <div class="course-features">
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Hands-on kitchen training</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Professional chef skills</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Industry placement</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="course-card" data-course="patisserie" onclick="selectCourse('patisserie', this)">
-                <div class="course-header">
-                    <div class="course-icon">🧁</div>
-                    <div class="course-header-text">
-                        <div>
-                            <span class="course-title">Certificate III in Patisserie</span>
-                            <span class="course-code">[SIT31021]</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="course-description">Specialize in the art of pastry making with professional patisserie techniques. Create cakes, desserts, and baked goods while mastering decorating skills in a commercial kitchen setting.</p>
-                <div class="course-features">
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Specialized pastry skills</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Artistic techniques</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">✓</span>
-                        <span>Commercial kitchen experience</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Location Selection Section -->
-    <div class="location-section" id="location-selection">
-        <h2>Select Your Preferred Location</h2>
-        <p>Choose where you'd like to attend your in-person training</p>
-        
-        <div class="location-grid">
-            <!-- Location options will be dynamically populated based on state and course -->
-            <div class="location-option" onclick="selectLocation('location1')" style="display: none;">
-                <div class="location-icon">📍</div>
-                <div class="location-details">
-                    <div class="location-name">Location Name</div>
-                    <div class="location-address">Address will be displayed here</div>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -1468,8 +1133,8 @@
                     <label for="state">Your State *</label>
                     <select id="state" name="state" required>
                         <option value="">Select your state</option>
+                        <option value="QLD">Queensland</option>
                         <option value="SA">South Australia</option>
-                        <option value="WA">Western Australia</option>
                         <option value="VIC">Victoria</option>
                     </select>
                 </div>
@@ -1501,9 +1166,8 @@
                     <label for="course">Course of Interest</label>
                     <select id="course" name="course">
                         <option value="">Select a course (optional)</option>
-                        <option value="early-childhood-cert3">Certificate III in Early Childhood Education and Care</option>
+                        <option value="early-childhood">Certificate III in Early Childhood Education and Care</option>
                         <option value="individual-support">Certificate III in Individual Support</option>
-                        <option value="english-proficiency">Certificate II in English Proficiency</option>
                         <option value="ageing-support">Certificate IV in Ageing Support</option>
                         <option value="child-youth-family">Certificate IV in Child, Youth and Family Intervention</option>
                         <option value="disability-support">Certificate IV in Disability Support</option>
@@ -1512,24 +1176,8 @@
                         <option value="mental-health-peer">Certificate IV in Mental Health (Peer Work)</option>
                         <option value="youth-work">Certificate IV in Youth Work</option>
                         <option value="allied-health-cert4">Certificate IV in Allied Health Assistance</option>
-                        <option value="training-assessment">Certificate IV in Training and Assessment</option>
                         <option value="diploma-community-services">Diploma of Community Services</option>
                         <option value="diploma-mental-health">Diploma of Mental Health</option>
-                        <option value="cake-pastry-baking">Cake and Pastry Baking for Bread Bakers' Skill Set</option>
-                        <option value="bread-baking">Bread Baking for Pastry Cooks Skill Set</option>
-                        <option value="commercial-cookery">Certificate III in Commercial Cookery</option>
-                        <option value="patisserie">Certificate III in Patisserie</option>
-                        <option value="work-health-safety-cert4">Certificate IV in Work Health and Safety</option>
-                        <option value="work-health-safety-diploma">Diploma of Work Health and Safety</option>
-                        <option value="early-childhood-diploma">Diploma of Early Childhood Education and Care</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="location">Preferred Training Location</label>
-                    <select id="location" name="location">
-                        <option value="">Select a location (optional)</option>
-                        <!-- Locations will be populated based on state and course selection -->
                     </select>
                 </div>
 
@@ -1599,11 +1247,10 @@
 
     <script>
         // Track user selections
-        let selectedState = 'SA';
+        let selectedState = 'QLD';
         let selectedVisa = null;
         let selectedCourse = null;
         let selectedWork = null;
-        let selectedLocation = null;
 
         // Helper function to scroll with offset
         function scrollToSection(sectionId, offset = 100) {
@@ -1637,27 +1284,6 @@
                 courseField.value = courseId;
             }
             
-            // Scroll to location selection
-            setTimeout(() => {
-                scrollToSection('location-selection', 120);
-            }, 300);
-        }
-
-        // Location selection function
-        function selectLocation(locationId) {
-            // Store selected location
-            selectedLocation = locationId;
-            
-            const options = document.querySelectorAll('.location-option');
-            options.forEach(opt => opt.classList.remove('selected'));
-            event.currentTarget.classList.add('selected');
-
-            // Pre-populate form location field (if added)
-            const locationField = document.getElementById('location');
-            if (locationField) {
-                locationField.value = locationId;
-            }
-            
             // Scroll to working commitments
             setTimeout(() => {
                 scrollToSection('working-commitments', 120);
@@ -1679,8 +1305,8 @@
             
             // Define which courses are available in each state
             const stateConfig = {
-                'SA': ['individual-support', 'disability-support', 'cake-pastry-baking', 'bread-baking', 'diploma-community-services', 'training-assessment', 'english-proficiency'],
-                'WA': ['work-health-safety-cert4', 'work-health-safety-diploma', 'early-childhood-cert3', 'early-childhood-diploma', 'commercial-cookery', 'patisserie', 'individual-support', 'diploma-community-services'],
+                'QLD': ['individual-support', 'disability-support', 'ageing-support', 'mental-health-peer', 'child-youth-family', 'youth-work', 'diploma-community-services'],
+                'SA': ['disability-support', 'ageing-support', 'mental-health', 'child-youth-family', 'youth-work', 'leisure-health', 'diploma-community-services'],
                 'VIC': ['allied-health-cert4', 'diploma-mental-health']
             };
 
@@ -1712,7 +1338,7 @@
 
         // Initialize with QLD selected (showing Individual Support and Ageing Support)
         window.addEventListener('DOMContentLoaded', () => {
-            selectState('SA', false);
+            selectState('QLD', false);
         });
 
         function selectWork(type) {
@@ -1750,7 +1376,7 @@
             if (type === 'citizen' || type === 'pr' || type === 'humanitarian') {
                 title.textContent = '✅ You\'re Eligible for Government Funding!';
                 text.textContent = 'Great news! Based on your visa status, you may qualify for government-funded training. Our team will guide you through the enrollment process to help you start your career journey.';
-                result.style.borderColor = '#ff9f43';
+                result.style.borderColor = '#FECA39';
             } else if (type === 'other') {
                 title.textContent = '📋 Let\'s Check Your Eligibility';
                 text.textContent = 'Your visa type may have specific funding requirements. Our team will assess your individual circumstances and help you explore all available funding options and payment plans. Contact us to discuss your situation.';
